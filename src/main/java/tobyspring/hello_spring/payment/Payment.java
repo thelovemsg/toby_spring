@@ -1,4 +1,4 @@
-package tobyspring.hello_spring;
+package tobyspring.hello_spring.payment;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

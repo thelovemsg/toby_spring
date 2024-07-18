@@ -1,9 +1,12 @@
-package tobyspring.hello_spring;
+package tobyspring.hello_spring.exrate;
+
+import org.springframework.stereotype.Component;
+import tobyspring.hello_spring.payment.ExRateProvider;
 
 import java.math.BigDecimal;
 
+@Component
 public class SimpleExRateProvider implements ExRateProvider {
-
 
     @Override
     public BigDecimal getExRate(String currency) {
